@@ -7,6 +7,8 @@ The algorithm is based on results that I devised in a Math paper I had published
 Execute the program with the commands: 
         ```
         javac *.java
+        ``` &
+        ```
         java ZetaBeta N
         ```
 where N is the user-provided input.
