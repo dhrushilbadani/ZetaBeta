@@ -4,8 +4,9 @@ A program that calculates the value of the Riemann Zeta function (if the input i
 The algorithm is based on results that I devised in a Math paper I had published earlier. (You can find them in the results-riemann-zeta.pdf file). The algorithm's time performance has been optimized using memoization and serialization. If the value at k has already been calculated, and we want the values from k, k+1, k+2...N-1, N, the algorithm's time complexity is O((N-k)^2) to calculate the values of the needed functions for these values, leading to an amortized linear-time performance.
 
 ##Usage:
-Execute the program with the command: 
+Execute the program with the commands: 
         ```
+        javac *.java
         java ZetaBeta N
         ```
 where N is the user-provided input.
